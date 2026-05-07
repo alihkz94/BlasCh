@@ -1,0 +1,53 @@
+cff-version: 1.2.0
+message: "If you use BlasCh, please cite the paper below."
+authors:
+  - family-names: Hakimzadeh
+    given-names: Ali
+    orcid: "https://orcid.org/0000-0003-1336-7445"
+  - family-names: Mikryukov
+    given-names: Vladimir
+  - family-names: Metsoja
+    given-names: Maria
+  - family-names: Tedersoo
+    given-names: Leho
+  - family-names: Anslan
+    given-names: Sten
+title: "BlasCh: BLAST-based false positive chimera detection and recovery for metabarcoding and eDNA datasets"
+version: 1.0.0
+date-released: 2026-05-07
+url: "https://github.com/alihkz94/BlasCh"
+license: MIT
+repository-code: "https://github.com/alihkz94/BlasCh"
+abstract: >-
+  BlasCh is a command-line tool that identifies and recovers false positive
+  chimeric sequences from metabarcoding and environmental DNA (eDNA) datasets.
+  It builds per-sample BLAST self-databases and optionally searches a reference
+  database to classify sequences as non-chimeric, borderline, or true chimeras
+  based on user-configurable identity and coverage thresholds.
+keywords:
+  - metabarcoding
+  - eDNA
+  - chimera detection
+  - chimera recovery
+  - BLAST
+  - bioinformatics
+  - amplicon sequencing
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Hakimzadeh
+      given-names: Ali
+    - family-names: Mikryukov
+      given-names: Vladimir
+    - family-names: Metsoja
+      given-names: Maria
+    - family-names: Tedersoo
+      given-names: Leho
+    - family-names: Anslan
+      given-names: Sten
+  title: "Are we throwing away good data? Evaluation of chimera detection algorithms on long-read amplicons reveals high false-positive rates across algorithms"
+  journal: "PeerJ"
+  volume: 13
+  year: 2025
+  doi: "10.7717/peerj.20456"
+  url: "https://doi.org/10.7717/peerj.20456"
