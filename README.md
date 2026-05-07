@@ -1,4 +1,4 @@
-# BlasCh — BLAST-based Chimera Recovery
+# BlasCh — BLAST-based chimera recovery
 
 **BlasCh** detects and recovers false positive chimeric sequences from metabarcoding and environmental DNA (eDNA) datasets. It uses BLAST alignment against per-sample self-databases (and optionally a reference database) to classify sequences flagged as chimeras by upstream denoisers (DADA2, VSEARCH, etc.) into four categories:
 
