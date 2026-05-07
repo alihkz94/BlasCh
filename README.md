@@ -11,28 +11,6 @@
 
 ---
 
-## Citation
-
-If you use BlasCh, please cite:
-
-> Hakimzadeh A, Mikryukov V, Metsoja M, Tedersoo L, Anslan S. 2025. Are we throwing away good data? Evaluation of chimera detection algorithms on long-read amplicons reveals high false-positive rates across algorithms. *PeerJ* 13:e20456. https://doi.org/10.7717/peerj.20456
-
-A `CITATION.cff` file is included for automated citation export via GitHub's **Cite this repository** button.
-
----
-
-## Why BlasCh?
-
-Standard chimera detection tools (UCHIME, DADA2 `removeBimeraDenovo`) are designed for high sensitivity, which leads to false positives — genuine sequences classified as chimeric. This is particularly common with:
-
-- Rare or divergent taxa not well represented in reference databases
-- Long amplicons (COI, 18S full-length)
-- Samples with low read depth
-
-BlasCh addresses this by re-evaluating each flagged sequence against the sequences in the same sample (self-database) and an optional reference, providing evidence-based rescue.
-
----
-
 ## Requirements
 
 - Python ≥ 3.8
@@ -156,6 +134,16 @@ If `xml/blast_results.zip` (or uncompressed XML files) already exist from a prev
 ## Integration with PipeCraft2
 
 BlasCh is also available as a module within [PipeCraft2](https://github.com/SuvalineVana/pipecraft), a GUI-based pipeline for metabarcoding data processing. This standalone version is provided for users who want to run BlasCh independently.
+
+---
+
+## Citation
+
+If you use BlasCh, please cite:
+
+> Hakimzadeh A, Mikryukov V, Metsoja M, Tedersoo L, Anslan S. 2025. Are we throwing away good data? Evaluation of chimera detection algorithms on long-read amplicons reveals high false-positive rates across algorithms. *PeerJ* 13:e20456. https://doi.org/10.7717/peerj.20456
+
+A `CITATION.cff` file is included for automated citation export via GitHub's **Cite this repository** button.
 
 ---
 
