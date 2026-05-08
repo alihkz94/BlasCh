@@ -56,7 +56,7 @@ python blasch.py \
     --self_fasta_dir     /path/to/original_fastas \
     --reference_db       /path/to/reference.fasta \
     --output_dir         ./blasch_output \
-    --threads            16 \
+    --threads            8 \
     --high_identity_threshold        99.0 \
     --high_coverage_threshold        99.0 \
     --borderline_identity_threshold  80.0 \
